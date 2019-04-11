@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Formulario #4</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+  
+  <div class="container">
+    <br>
+    <form action="" class="">
+      <div class="form-group">
+        <label>Label basica</label>
+        <input type="text" class="form-control" placeholder="Input Basico">
+      </div>
+      <div class="form-group">
+        <textarea name="" id="" class="form-control" placeholder="textarea"></textarea>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id=""> Checkbox #1
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id=""> Checkbox #2
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id=""> Checkbox #3
+        </label>
+      </div>
+
+      <!-- Para poner uno al lado del otro -->
+      <div class="form-group">
+        <label class="checkbox-inline">
+          <input type="checkbox" name="" id=""> Checkbox #1
+        </label>
+
+        <label class="checkbox-inline">
+          <input type="checkbox" name="" id=""> Checkbox #2
+        </label>
+
+        <label class="checkbox-inline">
+          <input type="checkbox" name="" id=""> Checkbox #3
+        </label>
+      </div>
+
+      <div class="radio">
+        <label for="radio1"><input type="radio" name="opcion" id="radio1">Radio button #1</label>
+      </div>
+      <div class="radio">
+        <label for="radio2"><input type="radio" name="opcion" id="radio2">Radio button #2</label>
+      </div>
+      <div class="radio">
+        <label for="radio3"><input type="radio" name="opcion" id="radio3" disabled="">Radio button #3</label>
+      </div>
+      
+      <!-- Dos formas de separar los radios si están in-line 
+        -- Tradicional: <br>
+        -- Moderna: form-group
+      -->
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
