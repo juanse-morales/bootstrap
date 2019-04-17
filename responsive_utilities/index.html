@@ -2,12 +2,82 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Herramientas responsivas</title>
+  <title>Grid</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="container-fluid">
+      <h1>Header</h1>
+    </div>
+  </header>
 
+  <!-- Diferentes col:
+    -- col-xs- col-sm- col-md col-lg-9
+  -->
+
+  <div class="container-fluid">
+    <section class="main row">
+      <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+        <h3>Articulo</h3>
+        <p>
+          Lorem noasjojao aojsooas ajojajasoajaso Lorem noasjojao aojsooas ajojajasoajaso Lorem noasjojao aojsooas ajojajasoajaso Lorem noasjojao aojsooas ajojajasoajaso 
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk  Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+        <a href="#" class="btn btn-primary visible-md-block">Boton</a>
+        <br><br>
+      </article>
+      <aside class="visible-md visible-lg hidden-sm hidden-xs col-xs-12 col-sm-4 col-md-3">
+        <h3>Aside</h3>
+        <p>
+          Lorem noasjojao aojsooas ajojajasoajaso Lorem noasjojao aojsooas ajojajasoajaso  Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+          Lorem noasjojao aojsooas ajojajasoajaso Lorem noasjojao aojsooas ajojajasoajaso  Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+      </aside>
+    </section>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 color1">
+        <h3>Columna 1</h3>
+        <p>
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk  Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk  Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna 2</h3>
+        <p>
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-3 color1">
+        <h3>Columna 3</h3>
+        <p>
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+      </div>
+      
+      <div class="clearfix visible-sm-block"></div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <h3>Columna 4</h3>
+        <p>
+          Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk Loajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajkLoajsjaskjajaksjajskjasakj jkasjasjakajjkas jkajaskjsajk
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div class="container">
+      <h3>Morales Puello</h3>
+    </div>
+  </footer>
   <script src="../js/jquery.js"></script>
   <script src="../js/bootstrap.min.js"></script>
 </body>
